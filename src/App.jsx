@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <img src="Octocat.png" className="App-logo" alt="logo" /> */}
-        <img src="tricolor.jpg" className="App-logo" alt="cat" />
+        <img src="haru.jpg" className="App-logo" alt="cat" />
         <p>
           J.C. Ahn welcomes you! <span className="heart">♥️</span> 
         </p>
