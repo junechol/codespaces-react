@@ -19,7 +19,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="map" style="width:100vw;height:100vh;"></div>
+    <!-- <div id="map" style="width:100vw;height:100vh;"></div> -->
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -32,9 +32,9 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1082daef32473a8fd348357849b3c077"></script>
-  <!-- <script type="module" src="/src/index.jsx"></script> -->
-  <script type="text/javascript" >
+  <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1082daef32473a8fd348357849b3c077"></script> -->
+  <script type="module" src="/src/index.jsx"></script>
+  <!-- <script type="text/javascript" >
     var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
     var options = { //지도를 생성할 때 필요한 기본 옵션
       center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
@@ -42,5 +42,5 @@
     };
 
     var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
-  </script>
+  </script> -->
 </html>
